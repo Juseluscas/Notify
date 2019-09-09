@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "banner banner banner"
+                         "main main main"
+                         "section section section"
+                         "div div div"
+                         "footer footer footer";
+
+    grid-template-rows: 2px 300px 150px 180px 180px 80px;
+    margin: 0;
+
+}

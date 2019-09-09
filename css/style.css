@@ -1,18 +1,50 @@
 body{
     display: grid;
-    grid-template-areas: "nav nav nav"
-                         "banner banner banner"
-                         "main main main"
-                         "section section section"
-                         "div div div"
-                         "footer footer footer";
+    grid-template-areas: "nav nav nav nav"
+                         "banner banner banner banner"
+                         "main main main main"
+                         "section section section section"
+                         "div div div div"
+                         "footer footer footer footer";
 
-    grid-template-rows: 6px 300px 150px 180px 180px 80px;
+    grid-template-rows: 0.5vh 75vh 15vw 20vw 20vw 10vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
     margin: 0;
 
+}
+
+.esquerdo{
+    background-color: #2eb563;
+    width: 50%;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #e3e3e3;
+}
+
+header{
+    grid-area: banner;
+    background-image: url("../img/banner.png");
+    display: flex;
+}
+
+.hand{
+    align-items: left;
+    justify-content: center;
+    height: 65vh;
+    position: relative; 
+    top: 10vh;
+    
 }
 
 nav{
     grid-area: nav;
     background-color: #2eb563;
 }
+
+section{
+    grid-area: section;
+    background-color: #e3e3e3;
+}
+

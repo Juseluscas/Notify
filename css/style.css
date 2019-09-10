@@ -13,9 +13,15 @@ body{
 
 }
 
+.cor{
+    color: #2eb563; 
+}
+
 .esquerdo{
-    background-color: #2eb563;
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -23,19 +29,51 @@ footer{
     background-color: #e3e3e3;
 }
 
-header{
-    grid-area: banner;
-    background-image: url("../img/banner.png");
-    display: flex;
-}
-
 .hand{
+    display: flex;
     align-items: left;
     justify-content: center;
     height: 65vh;
     position: relative; 
     top: 10vh;
     
+}
+
+header{
+    grid-area: banner;
+    background-image: url("../img/banner.png");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+header div h1{
+    height: 50px;
+    position: relative;
+    bottom: 13vh;
+    left: 14vw;
+    font-family: 'Pacifico', cursive;
+    font-size: 44px;
+    font-style: initial;
+    color: #fffff5;
+}
+
+header div p{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #fffff5;
+    position: relative;
+    left: 6vw;
+    margin-top: 0;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    justify-content: space-around;
 }
 
 nav{

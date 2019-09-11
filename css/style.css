@@ -31,7 +31,7 @@ footer{
 }
 footer ul{
     margin: auto;
-    padding-top: 15px;
+    padding-top: 25px;
     display: flex;
     list-style-type: none;
 }
@@ -56,10 +56,12 @@ li{
     margin-right: 20px;   
 }
 li a{
-    font-size: 12px;
+    font-size: 10pt;
     text-decoration: none;
     color: grey;
+    font-family: 'Roboto', sans-serif;
 }
+
 .hand{
     display: flex;
     align-items: left;
@@ -85,7 +87,7 @@ header div h1{
     bottom: 14vh;
     left: 43vh;
     font-family: 'Pacifico', cursive;
-    font-size: 45px;
+    font-size: 45pt;
     font-style: initial;
     color: #fffff5;
 }
@@ -161,7 +163,7 @@ section{
 .email p{
     color: rgb(126, 125, 125);
     margin-right: 30px;
-    font-size: 12px;
+    font-size: 12pt;
 }  
 input{
     border-top-left-radius: 4%;
@@ -169,7 +171,7 @@ input{
     display: flex;
     width: 190px;
     height: 31px;
-    font-size: 20px;
+    font-size: 10pt;
 }
 .email{
     background-color: lightgrey;
@@ -180,8 +182,10 @@ input{
     padding-right: 13%;
     padding-bottom: 3%;
 }
+
 #video{
-    margin-left: 20%;
+    padding: 40px;
+    height: 167px;
 }
 .cadastro{
     display: flex;

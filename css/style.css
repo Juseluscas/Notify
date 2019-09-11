@@ -7,7 +7,7 @@ body{
                          "div div div div"
                          "footer footer footer footer";
 
-    grid-template-rows: 2vh 75vh 40vh 30vh 30vh 10vh;
+    grid-template-rows: 2vh 75vh 40vh 50vh 50vh 10vh;
     grid-template-columns: 24.9vw 24.8vw 24.5vw 24.6vw;
     margin: 0;
 
@@ -22,19 +22,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-/* footer{
-    grid-area: footer;
-    background-color: #e3e3e3;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-footer a{
-    color: grey;
-    text-decoration:none;
-    font-size: 10px;
-} */
 footer{
     background-color: lightgray;
     grid-area: footer;
@@ -114,10 +101,7 @@ nav{
     background-color: #2eb563;
 }
 
-section{
-    grid-area: section;
-    background-color: #e3e3e3;
-}
+
 main{
     align-items: center;
     display: flex;
@@ -153,3 +137,49 @@ main div span{
 main div span img{
     padding: 16px;
 }
+
+section{
+    grid-area: section;
+    background-color: #e3e3e3;
+    display: flex;
+}
+.email p{
+    color: rgb(126, 125, 125);
+    margin-right: 30px;
+    font-size: 12px;
+}  
+input{
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 11%;
+    display: flex;
+    width: 190px;
+    height: 31px;
+    font-size: 20px;
+}
+.email{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16%;
+    padding-right: 13%;
+    padding-bottom: 3%;
+}
+#video{
+    margin-left: 20%;
+}
+.cadastro{
+    display: flex;
+}
+.cadastro button{
+    display: flex;
+    justify-items: center;
+    color: white;
+    background-color: rgb(83, 198, 94);
+    border-left: 5px solid rgb(83, 198, 94);
+    width: 80px;
+    border-bottom-right-radius: 14%;
+    border-top-right-radius: 10%;
+}
+
+

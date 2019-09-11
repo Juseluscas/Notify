@@ -49,6 +49,7 @@ li a{
     color: grey;
     font-family: 'Roboto', sans-serif;
 }
+
 .hand{
     display: flex;
     align-items: left;
@@ -167,8 +168,10 @@ input{
     padding-right: 13%;
     padding-bottom: 3%;
 }
+
 #video{
-    margin-left: 20%;
+    padding: 40px;
+    height: 167px;
 }
 .cadastro{
     display: flex;

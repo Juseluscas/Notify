@@ -147,7 +147,7 @@ section{
 .email p{
     color: rgb(126, 125, 125);
     margin-right: 30px;
-    font-size: 12px;
+    font-size: 12pt;
 }  
 input{
     border-top-left-radius: 4%;
@@ -155,7 +155,7 @@ input{
     display: flex;
     width: 190px;
     height: 31px;
-    font-size: 20px;
+    font-size: 10pt;
 }
 .email{
     background-color: lightgrey;

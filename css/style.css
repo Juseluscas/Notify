@@ -70,7 +70,8 @@ header div p{
     font-family: 'Roboto', sans-serif;
     color: #fffff5;
     position: relative;
-    left: 6vw;
+    left: 3vw;
+    top: 2.5vw;
     margin-top: 0;
 }
 
@@ -79,7 +80,7 @@ header div p{
     align-items: center;
     position: relative;
     top: 10vh;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav{
@@ -103,7 +104,7 @@ main div{
     align-items: center;
     display: flex;
     flex-direction: column;
-    width:300px;;;
+    width:300px;
 }
 main div h3{
     font-family: 'Pacifico', cursive;

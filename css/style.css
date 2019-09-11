@@ -23,7 +23,7 @@ body{
     justify-content: center;
 }
 
-footer{
+/* footer{
     grid-area: footer;
     background-color: #e3e3e3;
     display: flex;
@@ -33,8 +33,34 @@ footer{
 footer a{
     color: grey;
     text-decoration:none;
+    font-size: 10px;
+} */
+footer{
+    background-color: lightgray;
+    grid-area: footer;
+    margin-bottom: 0;
+    margin: 0;
+
+}
+footer ul{
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    list-style-type: none;
 }
 
+footer div{
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-right: 20px;   
+}
+li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: grey;
+}
 .hand{
     display: flex;
     align-items: left;

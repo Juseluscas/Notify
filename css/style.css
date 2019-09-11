@@ -44,7 +44,7 @@ li{
     margin-right: 20px;   
 }
 li a{
-    font-size: 12px;
+    font-size: 12pt;
     text-decoration: none;
     color: grey;
 }
@@ -73,7 +73,7 @@ header div h1{
     bottom: 14vh;
     left: 43vh;
     font-family: 'Pacifico', cursive;
-    font-size: 45px;
+    font-size: 45pt;
     font-style: initial;
     color: #fffff5;
 }

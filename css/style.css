@@ -4,7 +4,7 @@ body{
                          "banner banner banner banner"
                          "main main main main"
                          "section section section section"
-                         "div div div div"
+                         "aside aside aside aside"
                          "footer footer footer footer";
 
     grid-template-rows: 2vh 75vh 40vh 50vh 50vh 10vh;
@@ -201,4 +201,46 @@ input{
     border-top-right-radius: 10%;
 }
 
+aside{
+    font-family:'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: aside;
+}
+aside h5{
+    font-size: 12pt;
+    margin: 1.5vh 0 1.5vh 0;  
+}
+aside h2{
+    font-size: 12pt;
+    margin: 3vh 0 0.7vh 0;
+}
+aside div{
+    display: flex;
+}
+aside div span{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+aside div span a{
+    display: flex;
+    justify-content: center;
+}
+aside div span a img{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+aside p{
+    color:#a6a6a6;
+    margin: 1vh 0 2vh 0;   
+}
+aside p:nth-child(1){
+    font-style: italic;
+    text-align: center;
+    margin: 2vh 10vw 0 10vw;  
+}
 

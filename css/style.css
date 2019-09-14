@@ -244,3 +244,243 @@ aside p:nth-child(1){
     margin: 2vh 10vw 0 10vw;  
 }
 
+
+//----------------------------
+
+
+@media(max-width:1024px) /*LABTOP 1024PX*/{
+    body{
+        grid-template-columns: 28vw 28vw 28vw 28vw;
+        grid-template-rows: 78vh 45vh 60vh 50vh 17vh;
+    }
+    button{ 
+        width:90px;
+    }
+    input{ 
+        width: 220px; 
+    }
+    #mao{
+        height: 340px;
+    }
+
+}
+@media(max-width:768px) /* TABLET 768PX */{
+    aside p{
+        margin: 5vh 0 2vh 0;  
+    }
+    body{
+        grid-template-columns: 28vw 28vw 28vw 28vw;
+        grid-template-rows: 2vh 45vh 60vh 60vh 60vh 10vh;
+    }
+    button{ 
+        width:100px;
+    }
+    iframe{
+        width: 300px;
+        height: 220px;
+    }
+    input{ 
+        width: 200px; 
+    } 
+    #mao{
+        height: 320px;
+    }
+}
+
+@media(max-width:425px) /* MOBILE L 425PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
+    aside p{
+        font-size: 18pt;
+        margin: 3vh 0 2vh 0;
+    }  
+    aside h5{
+        font-size: 20pt;
+    }
+    aside h2{
+        font-size: 25pt;
+    }
+    body{
+        grid-template-columns: 50vw 50vw 50vw 45vw;
+        grid-template-rows: 2vh 80vh 40vh 40vh 40vh 5vh;
+    }
+    button{
+        width:120px;
+        margin: 0;
+    }
+    #mao{
+        width:0;
+    }
+    footer div a{
+        font-size: 17pt;
+    }
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 10px 0 10px;
+    }
+    header div{
+        width: 450px;
+    }
+    header div h3{
+        font-size: 22pt;
+    }
+    header div p{
+        font-size: 17pt;
+    }
+    iframe{
+        width: 440px;
+        height: 250px;
+    }
+    input{
+        width: 350px;
+    }
+    nav div h1{
+        font-size: 35pt;
+    }
+    nav div p{
+        font-size: 25pt;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section div:nth-child(1) {
+        margin-left: 35vw;
+        margin-right: 35vw;
+        text-align: justify;
+    }
+    section div:nth-child(2) {
+        margin: 7vh 10vw 7vh 10vw;
+    }
+    section div h3{
+        font-size: 25pt;
+        margin: 2vh 0;
+    }
+    section div p{
+        font-size: 15pt;
+        margin: 2vh 0;
+    }
+}
+@media(max-width:375px) /* MOBILE M 375PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
+    aside p{
+        font-size: 18pt;
+        margin: 3vh 0 2vh 0;   
+    }
+    aside h5{
+        font-size: 20pt;
+    }
+    aside h2{
+        font-size: 25pt;
+    }
+    body{
+        grid-template-columns: 52vw 52vw 55vw 55vw;
+        grid-template-rows: 78vh 180vh 120vh 90vh 17vh;
+    }
+    #mao{
+        width:0;
+    }
+    footer div a{
+        font-size: 17pt;
+    }
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 10px 0 10px;
+    }
+    header div{
+        width: 450px;
+    }
+    header div h3{
+        font-size: 22pt;
+    }
+    header div p{
+        font-size: 17pt;
+    }
+    nav div h1{
+        font-size: 35pt;
+    }
+    nav div p{
+        font-size: 25pt;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    section div h3{
+        font-size: 25pt;
+        margin: 2vh 0;
+    }
+    section div p{
+        font-size: 15pt;
+        margin: 2vh 0;
+    }
+}
+
+@media(max-width:320px) /* MOBILE S 320PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
+    aside p{
+        font-size: 18pt;
+    }
+    aside h5{
+        font-size: 20pt;
+    }
+    aside h2{
+        font-size: 25pt;
+    }
+    body{
+        grid-template-columns: 65vw 65vw 60vw 60vw;
+        grid-template-rows: 5vh 60vh 60vh 120vh 100vh 15vh;
+    }
+    #mao{
+        width:0;
+    }
+    footer div a{
+        font-size: 17pt;
+    }
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 10px 0 10px;
+    }
+    header div{
+        width: 400px;
+    }
+    header div h3{
+        font-size: 22pt;
+    }
+    header div p{
+        font-size: 17pt;
+    }
+    nav div h1{
+        font-size: 35pt;
+    }
+    nav div p{
+        font-size: 25pt;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    section div h3{
+        font-size: 25pt;
+        margin: 2vh 0;
+    }
+    section div p{
+        font-size: 15pt;
+        margin: 2vh 0;
+    }
+}
